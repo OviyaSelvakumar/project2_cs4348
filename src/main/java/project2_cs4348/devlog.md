@@ -38,3 +38,9 @@ OVERALL
 Finer details are in the Project Info Sheet. As per the first suggestion, I am goign to try to make one customer enter the bank and talk/work with one teller + manager
 
 ---------------------------------------------------------------------------
+April 2, 2025 - 1:28 PM
+
+I worked a little bit into the night but made little progress. Today, however, I was able to get the sychronization and notification between the teller and customer working. I was previously having some trouble with communication between the teller and customer, specifically ordering the behavior as needed. However, I think it now works!
+
+The code, as of right now, works for basic communication and a few needed behaviors bwetween one teller and customer. For the rest, I will first work on completing the fully needed functionalities for one teller and customer. This will include more semapohres as well to ensure the manager, safe, and door work as needed.
+---------------------------------------------------------------------------
