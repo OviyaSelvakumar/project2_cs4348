@@ -1,7 +1,7 @@
 package project2_cs4348;
 
 public class Simulation {
-    public static void main(String[] args) {
+    public static void main(String[] args) {        
         //create teller 1
         Teller teller = new Teller(1);
         //start teller 1

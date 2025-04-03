@@ -44,3 +44,16 @@ I worked a little bit into the night but made little progress. Today, however, I
 
 The code, as of right now, works for basic communication and a few needed behaviors bwetween one teller and customer. For the rest, I will first work on completing the fully needed functionalities for one teller and customer. This will include more semapohres as well to ensure the manager, safe, and door work as needed.
 ---------------------------------------------------------------------------
+April 2, 2025 - 11:08 PM
+
+I am going to do the full behavior for the teller and customer. As this will include creating the semaphores, I will be adding those first and now.
+---------------------------------------------------------------------------
+April 2, 2025 - 11:48 PM
+
+All teller and customer steps/tasks were added and semaphores were created.
+---------------------------------------------------------------------------
+April 3, 2025 - 12:35 AM
+
+The functions are added and in place and running. The threads are not running in order as needed as the communication seems to be missing. All customer tasks are running first with teller tasks following. This will be fixed tomorrow.
+---------------------------------------------------------------------------
+
