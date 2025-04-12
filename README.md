@@ -1,3 +1,6 @@
+Project 2 - CS 4348 
+Oviya Selvakumar - OXS220001
+
 Hi!
 
 The code consists of 3 files: Customer.java, Teller.java, Simulation.java. Please run Simulation.java as it is used to run all three files and the program as a whole.
