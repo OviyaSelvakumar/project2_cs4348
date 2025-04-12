@@ -68,3 +68,23 @@ April 3, 2025 - 9:28 PM
 
 The programming is working correctly and completely for one customer and one teller. I will build on this to allow for 50 customers and 3 tellers later by including restrictions on entry and any other necessary changes.
 ---------------------------------------------------------------------------
+April 9, 2025 - 10:28 PM
+
+I am starting this by testing if the code works for 5 customers and 3 tellers. This meant that I had to add the door entry semaphore. Also, I used 2 for-loops to create the customers and tellers.
+---------------------------------------------------------------------------
+April 11, 2025 - 4:08 PM
+
+During my last entry, I found that my method of assignning a teller to the customer throguht the constructor will not work. To work around this, I made the customer using just the customerID as a parameter. I will also need to add functions to make this. 
+
+Also, because there are now more customers than tellers, I will be creating functions and an arraylist to hold and move customers from inside the bank to open tellers.
+---------------------------------------------------------------------------
+April 11, 2025 - 6:22 PM
+
+I edited the simulation class to act as a driver and it now works with 5 customers and 3 tellers.
+
+The entry semaphore was also added to let 2 customers in at a time (max.). The array list is also working perfectly to keep track of customers in line. After this, I will now check to see if the code works with 50 customers. I will also be going back to make sure all timings and tiny details/requirements are properly fulfilled.
+---------------------------------------------------------------------------
+April 11, 2025 - 10:22 PM
+
+The code works! Some small changes were made to ensure that the proper wait time ranges were used. I now added 50 customers and 3 tellers. I also tested the program with "| grep "Customer X" " to track a customer. Now, I will be committing this to the repo and creating a README.
+---------------------------------------------------------------------------
